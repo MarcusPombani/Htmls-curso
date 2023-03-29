@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Informações para ser Hackeado</h1>
+    <hr>
+    <form method="post" action="mailto:marcusviniciuspdias1111@gmail.com">
+    <label for="nome">Nome:</label>
+    <input type="text" required autocomplete="on" placeholder="Coloque seu nome aqui" id="nome">
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" size="30" required autocomplete="on" placeholder="Coloque seu sobrenome aqui" id="sobrenome">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email"; size="35" required autocomplete="on" placeholder="Coloque seu E-mail aqui" id="email">
+    <label for="senha">Senha:</label>
+    <input type="password" required autocomplete="on" placeholder="Coloque sua senha aqui" id="senha">
+    <br>
+    <br>
+    <label for="CPF">CPF:</label>
+    <input type="text" required autocomplete="on" placeholder="Coloque seu CPF aqui" id="CPF" size="69" minlength="11" >
+    <br>
+    <br>
+    <p>Destino</p>
+    <input type="radio" required id="sao" name="type">
+    <label for="sao" name="type" >São Paulo</label>
+    <br>
+    <input type="radio" required id=nao" name="type">
+    <label for="nao" name="type" >Não é São Paulo</label>
+    <p>O que tu gosta?</p>
+    <input type="checkbox" id="homi" name="gen1">
+    <label for="homi">Homem</label>
+    <input type="checkbox" id="muie" name="gen2">
+    <label for="muie">Mulher</label>
+    <input type="checkbox" id="n sei" name="gen3">
+    <label for="n sei">Não binários</label>
+
+    <p>Formas de Pagamento</p>
+    <select name="fPagamento" id="fPagamento">
+        <option value="fp0" disabled selected>Selecione uma opção</option>
+        <option value="fp1">Cartão de Crédito</option>
+        <option value="fp2">Cartão de Débito</option>
+        <option value="fp3">Pix</option>
+        <option value="fp4">Cheque</option>
+        <option value="fp5">Boleto</option>
+    </select>
+    <p>Escolha a sua franquia de jogos</p>
+    <input list="Franquias de jogos" placeholder="Jogos">
+    <datalist id="Franquias de jogos">
+<option value="Mario"></option>
+<option value="The Legend of Zelda"></option>
+<option value="Kirby"></option>
+<option value="Super Smash Brothers"></option>
+<option value="Crash"></option>
+    </datalist>
+    <br>
+    <br>
+    0
+    <input type="range" name="r01" id="r01">
+    1000000
+    <br>
+    <br>
+    <p>Deixe sugestões para te hackear:</p>
+    <textarea name="txa1" id="txt" rows="20" cols="50" placeholder="Como te hackear?"></textarea>
+    <input type="submit" value="Enviar">
+    </form>
+    <hr>
+</body>
+</html>
