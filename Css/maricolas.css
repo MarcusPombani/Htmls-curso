@@ -2,7 +2,7 @@
 body{
     background-image: url(/Outros/background.jpg); background-size: cover; }
    
-    p{background-color: rgba(255, 0, 0, 0); font-family: sans-serif; text-align: center; color: #fff;}
+    p{background-color: rgba(255, 0, 0, 0); font-family: sans-serif; text-align: justify; color: #fff; margin: 4git add0px ;}
     h1 {
     color: #fff;
     font-size: 100px;
