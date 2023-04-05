@@ -15,19 +15,27 @@ h1 {
     background-color: #dcedfc;
     color: #00aeff;
     text-shadow: 1px 1px 20px #2f9eff; text-align: center;
+    border-style:dotted ;
+    border-color: #76d3ff;
 }
 h2 {
    background-color: cornsilk;
     font-style: italic; text-align: center;
     color: #FFD100;
+    border-style:dotted ;
+    border-color: #ffea8d;
 }
 li {
     list-style-type: none;
     text-align: center;
     font-size: large;
 }
-p.ult{
+/* A partir do momento que eu coloco o p ele só vai ser aplicado no p */
+.ult{
     text-align:center;
     font-style:italic;
     font-family: 'Courier New', Courier, monospace;
+}
+#paragrafin{
+    text-align: center;
 }
