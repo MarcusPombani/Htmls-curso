@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>IMC: você sabe o que o Índice de Massa Corporal e como se calcula?</h1>
+    <p></p>
+    <label for="altura_input">Altura <small>(ex.: 1,84)</small></label>
+    <br />
+    <input
+      type="text"
+      id="altura_input"
+      name="altura_input"
+      placeholder="Metros"
+      maxlength="4"
+    />
+    <br />
+    <br />
+    <label for="peso_input">Peso <small>(ex.: 79,8)</small></label>
+    <br />
+    <input
+      type="text"
+      id="peso_input"
+      name="peso_input"
+      maxlength="6"
+      placeholder="Quilos"
+    />
+    <table class="table-calc" cellspacing="0">
+      <thead>
+        <tr>
+          <td colspan="3">Veja a interpretação do IMC</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr
+          class="table-calc-blue"
+          style="background-color: rgb(255, 255, 255)"
+        >
+          <td>IMC</td>
+          <td>Classificação</td>
+          <td style="text-align: center">Obesidade <small>(grau)</small></td>
+        </tr>
+
+        <tr id="result_calc_0" style="background-color: rgb(255, 255, 255)">
+          <td>Menor que 18,5</td>
+          <td>Magreza</td>
+          <td style="text-align: center">0</td>
+        </tr>
+
+        <tr id="result_calc_1" style="background-color: rgb(235, 253, 234)">
+          <td>Entre 18,5 e 24,9</td>
+          <td>Normal</td>
+          <td style="text-align: center">0</td>
+        </tr>
+
+        <tr id="result_calc_2" style="background-color: rgb(255, 255, 255)">
+          <td>Entre 25,0 e 29,9</td>
+          <td>Sobrepeso</td>
+          <td style="text-align: center">1</td>
+        </tr>
+
+        <tr id="result_calc_3" style="background-color: rgb(255, 255, 255)">
+          <td>Entre 30,0 e 39,9</td>
+          <td>Obesidade</td>
+          <td style="text-align: center">2</td>
+        </tr>
+
+        <tr id="result_calc_4" style="background-color: rgb(255, 255, 255)">
+          <td>Maior que 40,0</td>
+          <td>Obesidade Grave</td>
+          <td style="text-align: center">3</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <input
+      type="button"
+      value="Calcular"
+      class="vinter-bt-cadastro"
+      id="submit_calc"
+    />
+    <p id="results">Seu IMC é:</p>
+    <script src="/Java script/trab.js"></script>
+  </body>
+</html>
