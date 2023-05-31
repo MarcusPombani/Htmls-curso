@@ -1,0 +1,38 @@
+* {
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    background-image: url('/outros/01.beachshowcase.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #ff4800;
+    text-align: center;
+    background-position: center;
+    padding-top: 2em;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+.pheader {
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+.butao {
+    border: #8a513b 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 7vh;
+    color: #8a513b;
+    text-decoration: none;
+}
+.psec {
+    background-color: #8a513b;
+    color: aliceblue;
+    text-align: center;
+    padding: 2vh;
+}

@@ -1,14 +1,167 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding: 0%;
+}
+.maini {
+  background-color: #a6daff;
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  flex-direction: row;
+}
+.backi {
+  background-color: #feffc0;
+}
+.divi {
+  background-color: #feffc0;
+}
+.divp{
+  width: 20vw;
+}
+.H1i {
+  font-family: Oswald;
+  text-align: center;
+  font-size: 10vh;
+  margin-right: 20%;
+}
+.imgi {
+  display: block;
+  height: 60vh;
+  border-radius: 1em;
+  margin:0%;
+  padding: 0%;
+}
+.h2i {
+  margin: 5%;
+  padding: 0%;
+}
+.artcli {
+  display: flex;
+  margin-bottom: 2%;
+}
+.txti {
+  margin-left: 0%;
+  text-align: justify;
+  padding: 0;
 
-body{
-    background-image: url(/Outros/gradientblack.jpeg); background-size:cover; }
-    h1 {color: rgb(255, 255, 255);
-    font-size: 100px;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 0 0 10px rgb(255, 255, 255);}
-    h2{color:rgb(255, 255, 255); text-align: center; font-family:Arial, Helvetica, sans-serif; font-size: 45px;}
-    p{text-align:center; color: rgb(255, 255, 255); font-family:Arial, Helvetica, sans-serif;font-size: 25px;}
-    nav{text-align: center;font-family:Arial, Helvetica, sans-serif;}
-   
-    
+}
+.divtxt {
+  display: block;
+  text-align: left;
+  margin-left: 30rem;
+}
+.menu {
+  width: 770px;
+  height: 66px;
+  margin: 20px auto;
+  position: relative;
+}
+.menu ul {
+  list-style: none;
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  display: block;
+  padding: 10px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #000;
+  margin: 10px 10px 0 0;
+  width: 100px;
+}
+.menu li:nth-child(3) {
+  margin-right: 120px;
+}
+.menu li:nth-child(6) a {
+  margin-right: 0;
+}
+.menu li:nth-child(1n + 4) a {
+  text-align: right;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url(/Outros/logo.png);
+  background-size: contain;
+  display: block;
+  float: left;
+  margin-left: 25vh;
+}
+.footer {
+  text-align: center;
+  margin-top: 1%;
+  padding: 1rem;
+}
+.figi {
+  text-align: center;
+}
+.FO {
+  background-color: #00bbff;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+.O {
+  background-color: #ff5646;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+.FR {
+  text-align: center;
+  background-color: #67ff49;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+.A {
+  text-align: center;
+  background-color: #ffbf58;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+.mainf {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto;
+  background-color: #a6daff;
+  padding: 10px;
+  align-items: center;
+  justify-items: center;
+  padding: 3rem;
+}
+.H2o{
+  text-decoration: dashed;
+  text-align: center;
+}
+.pcim{
+  height: 52vh;
+  margin-left: 2vw;
+}
+.programa{
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+.tec{
+  margin: 2vh;
+  text-align: center;
+}
+.maino{
+  background-color: #a6daff;
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  justify-content: center;
+}

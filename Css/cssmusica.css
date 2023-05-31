@@ -1,13 +1,40 @@
-body{
-    background-image: url(/Outros/gradientgreen.png); background-size: cover; }
-    h1 {color: rgb(0, 0, 0);
+body {
+    background: #c2ff00;
+    background: linear-gradient(0deg, #c2ff00 15%, #12ff00 100%); 
+    background-size: cover;
+}
+h1 {
+    color: rgb(0, 0, 0);
     font-size: 100px;
     font-family: sans-serif;
     font-weight: bold;
     text-align: center;
-    text-shadow: 0 0 10px black;}
-    h2{color:rgb(0, 0, 0); text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 45px;}
-    p{text-align:center; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif;}
-    h3{text-align: center; color:rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif;font-size: 30px}
-    h4{text-align: center; color:rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif;font-size: 27px}
-    nav{text-align: center; font-family: Arial, Helvetica, sans-serif;}
+    text-shadow: 0 0 10px black;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h4 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+nav {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,38 @@
+.container{
+    width: 700px;
+    height: 700px;
+    border: 1px solid #000000;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    margin: auto;
+    padding: auto;
+    align-items:center;
+    
+}
+.item1{
+    width: 150px;
+    height: 150px;
+    background-color:greenyellow;
+    border: 1px solid #000000;
+    margin: 5px;
+    order: 3;
+    flex-grow: 2;
+    align-self: stretch;
+}
+.item2{
+    width: 150px;
+    height: 150px;
+    background-color:cornflowerblue;
+    border: 1px solid #000000;
+    margin: 5px;
+    order: 1;
+}
+.item3{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    border: 1px solid #000000;
+    margin: 5px;
+    order: 3;
+}

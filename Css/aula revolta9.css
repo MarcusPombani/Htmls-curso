@@ -1,0 +1,23 @@
+div {
+    background-color: darkgrey;
+    text-align: center;
+    border-radius: 1em;
+}
+img {
+    margin: auto;
+    padding: auto;
+    border-radius: 1em;
+}
+img:hover{
+    animation:move 1s ;
+}
+@keyframes move{
+    0%{transform:translateX(0px)}
+
+    30%{transform:translateX(50px)}
+
+    60%{transform:translateX(-50px)}
+
+    100%{transform:translateX(0px)}
+
+}

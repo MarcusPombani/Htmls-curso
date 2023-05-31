@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    border: inset 3px;
+    border-color: #ff0000;
+    text-align: center;
+}
+body {
+    background: rgb(194,255,0);
+background: linear-gradient(0deg, rgba(194,255,0,1) 15%, rgba(18,255,0,1) 99%);
+height: 100vh;
+        
+    
+}
+figure {
+    text-align: center;
+}
+
+img {
+    border-radius: 60px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    height: auto;
+}
+
+h2 {
+    border-radius: 60px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    text-align: center;
+}
+#lol {
+    text-align: center;
+}
